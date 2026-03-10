@@ -4,6 +4,7 @@ import os
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET'])
 def home():
     return "Trading Bot is Live!"
